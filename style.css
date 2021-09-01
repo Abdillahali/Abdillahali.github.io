@@ -50,8 +50,9 @@ nav{
     
     .carousel-inner img{
         border-radius: 20px;
-        width: 260px;
-        height: 180px;
+        margin-left: -20px;
+        width: 300px;
+        height: 280px;
     }
     
     .carousel a{
