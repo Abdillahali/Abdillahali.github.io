@@ -1,0 +1,297 @@
+nav{
+    text-align: center;
+    }
+    
+    .navbar-brand {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .jumbotron{
+        margin-top: 60px;
+        height: 580px;
+        background: rgb(0, 0, 0);
+    }
+    
+    .jumbotron h1{
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-align: center;
+        margin-top: -10px;
+    }
+    .jumbotron p{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-top: -10px;
+        text-transform: capitalize;
+    }
+    
+    .carousel{
+        margin-top: -440px;
+        margin-bottom: 100px;
+    }
+    
+    .carousel-inner .carousel-item{
+        width: 440px;
+        height: 400px;
+        margin-left: 22px;
+    }
+    
+    .carousel-inner .carousel-item::after{
+        content: '';
+        display: block;
+        width: 440px;
+        height: 400px;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.534),
+         rgba(51, 51, 51, 0.63));
+        position: absolute;
+        bottom: 0;
+        border-radius: 20px;
+    }
+    
+    .carousel-inner img{
+        border-radius: 20px;
+        height: 280px;
+    }
+    
+    .carousel a{
+        margin-top: -150px;
+    }
+    
+    .container h2{
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .about h2{
+        margin-top: -60px;
+    }
+    
+    .about img{
+        margin-top: 20px;
+        margin-left: 145px;
+        width: 140px;
+        height: 140px;
+    }
+    .about h4{
+        margin-left: 165px;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    
+    .about p{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 10px;
+        text-align: justify;
+    }
+    
+    .expertise h2{
+        margin-top: 40px;
+    }
+    
+    .expertise img{
+        width: 100px;
+        margin: 20px 0px 20px 160px;
+    
+    }
+    
+    .expertise .expertise-desc{
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .expertise h6 span{
+        font-weight: bold;
+    }
+    
+    .portofolio h2{
+    margin-top: 40px;    
+    margin-bottom: 20px;
+    }
+    
+    .portofolio img{
+        width: 380px;
+        margin: 30px 10px 10px 25px;
+    
+    }
+    
+    .social-media h2{
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .social-media a img{
+        width: 100px;
+        margin: 20px;
+        margin-bottom: 160px;
+    
+    }
+    
+    footer {
+        background: rgb(201, 212, 219);
+        height: 200px;
+    }
+    
+    footer img{
+        margin-top: 100px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+        position: relative;
+    }
+
+
+@media (min-width: 992px) { 
+nav{
+text-align: center;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.jumbotron{
+    margin-top: 60px;
+    height: 700px;
+    background: rgb(25, 25, 26);
+}
+
+.jumbotron h1{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    margin-top: -10px;
+}
+.jumbotron p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -10px;
+    text-transform: capitalize;
+
+}
+
+.carousel{
+    margin-top: -500px;
+    margin-bottom: 100px;
+}
+
+.carousel-inner .carousel-item{
+    width: 700px;
+    height: 400px;
+    margin-left: 420px;
+}
+
+.carousel-inner .carousel-item::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.904),
+     rgba(158, 158, 158, 0.212));
+    position: absolute;
+    bottom: 0;
+    border-radius: 20px;
+}
+
+.carousel-inner img{
+    border-radius: 20px;
+    height: 400px;
+    text-align: center;
+}
+
+.carousel a{
+    margin-top: -100px;
+}
+
+.container h2{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about h2{
+    margin-top: 120px;
+}
+
+.about img{
+    margin-top: 20px;
+    margin-left: 220px;
+    width: 140px;
+    height: 140px;
+}
+.about h4{
+    margin-left: 235px;
+    margin-top: -20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.about p{
+    margin-left: 480px;
+    margin-right: 90px;
+    margin-top: -120px;
+    text-align: justify;
+}
+
+.expertise h2{
+    margin-top: 60px;
+}
+
+.expertise img{
+    width: 120px;
+    margin: 20px 0px 20px 470px;
+
+}
+
+.expertise .expertise-desc{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.expertise h6 span{
+    font-weight: bold;
+}
+
+.portofolio h2{
+margin-top: 140px;    
+margin-bottom: 20px;
+}
+
+.portofolio img{
+    width: 335px;
+    height: 190px;
+    margin: 30px 10px 10px 10px;
+
+}
+
+.social-media h2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.social-media a img{
+    width: 100px;
+    margin: 20px;
+}
+
+footer {
+    background: rgb(201, 212, 219);
+    height: 200px;
+    margin-top: 100px;
+}
+
+footer img{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+}
+
