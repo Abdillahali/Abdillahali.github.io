@@ -82,6 +82,7 @@ nav{
         margin-left: 165px;
         text-transform: capitalize;
         font-weight: bold;
+        text-align: center;
     }
     
     .about p{
