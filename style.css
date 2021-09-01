@@ -50,7 +50,8 @@ nav{
     
     .carousel-inner img{
         border-radius: 20px;
-        height: 280px;
+        width: 260px;
+        height: 180px;
     }
     
     .carousel a{
@@ -111,7 +112,7 @@ nav{
     }
     
     .portofolio img{
-        width: 380px;
+        width: 200px;
         margin: 30px 10px 10px 25px;
     
     }
