@@ -1,3 +1,4 @@
+*
 nav{
     text-align: center;
     }
@@ -8,7 +9,7 @@ nav{
     }
     .jumbotron{
         margin-top: 60px;
-        height: 580px;
+        height: 400px;
         background: rgb(0, 0, 0);
     }
     
@@ -16,13 +17,14 @@ nav{
         color: rgb(255, 255, 255);
         font-weight: bold;
         text-align: center;
-        font-size: 24px;
+        font-size: 38px;
         margin-top: -10px;
     }
     .jumbotron p{
         color: rgb(255, 255, 255);
         text-align: center;
         margin-top: -10px;
+        font-size: 20px;
         text-transform: capitalize;
     }
     
@@ -32,16 +34,18 @@ nav{
     }
     
     .carousel-inner .carousel-item{
-        width: 440px;
-        height: 400px;
-        margin-left: 22px;
+        width: 340px;
+        height: 200px;
+        margin-top: 160px;
+        margin-left: 20px;
+        margin-bottom: 60px;
     }
     
     .carousel-inner .carousel-item::after{
         content: '';
         display: block;
-        width: 440px;
-        height: 400px;
+        width: 100%;
+        height: 100%;
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.534),
          rgba(51, 51, 51, 0.63));
         position: absolute;
@@ -51,15 +55,11 @@ nav{
     
     .carousel-inner img{
         border-radius: 20px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 260px;
-        height: 240px;
+        width: 100px;
     }
     
     .carousel a{
-        margin-top: -150px;
+        margin-top: 100px;
     }
     
     .container h2{
@@ -74,12 +74,11 @@ nav{
     
     .about img{
         margin-top: 20px;
-        margin-left: 145px;
+        margin-left: 85px;
         width: 140px;
         height: 140px;
     }
     .about h4{
-        margin-left: 165px;
         text-transform: capitalize;
         font-weight: bold;
         text-align: center;
@@ -98,7 +97,7 @@ nav{
     
     .expertise img{
         width: 100px;
-        margin: 20px 0px 20px 160px;
+        margin: 20px 0px 20px 100px;
     
     }
     
@@ -117,26 +116,28 @@ nav{
     }
     
     .portofolio img{
-        width: 240px;
-        margin: 30px 10px 10px 25px;
+        width: 300px;
+        margin: 20px 10px 10px 10px;
     
     }
     
     .social-media h2{
-        margin-top: 40px;
+        margin-top: 60px;
         margin-bottom: 10px;
     }
     
     .social-media a img{
         width: 100px;
-        margin: 20px;
-        margin-bottom: 160px;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: 10px;
     
     }
     
     footer {
         background: rgb(201, 212, 219);
         height: 200px;
+        margin-top: 100px;
     }
     
     footer img{
@@ -171,6 +172,7 @@ text-align: center;
     font-weight: bold;
     text-align: center;
     margin-top: -10px;
+    font-size: 40px;
 }
 .jumbotron p{
     color: rgb(255, 255, 255);
@@ -189,6 +191,7 @@ text-align: center;
     width: 700px;
     height: 400px;
     margin-left: 420px;
+    margin-top: 0px;
 }
 
 .carousel-inner .carousel-item::after{
@@ -230,8 +233,8 @@ text-align: center;
     height: 140px;
 }
 .about h4{
-    margin-left: 235px;
-    margin-top: -20px;
+    margin-left: -500px;
+    margin-top: -15px;
     text-transform: capitalize;
     font-weight: bold;
 }
@@ -300,4 +303,3 @@ footer img{
     position: relative;
 }
 }
-
