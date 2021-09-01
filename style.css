@@ -41,18 +41,6 @@ nav{
         margin-bottom: 60px;
     }
     
-    .carousel-inner .carousel-item::after{
-        content: '';
-        display: block;
-        width: 340px;
-        height: 180px;
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.534),
-         rgba(51, 51, 51, 0.63));
-        position: absolute;
-        bottom: -20px;
-        border-radius: 20px;
-    }
-    
     .carousel-inner img{
         border-radius: 20px;
         width: 100px;
